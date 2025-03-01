@@ -10,10 +10,18 @@
 <body>
     <div class="container-fluid">
         <div class="game-header row">
-            <h1> Never Gonna Give You Up</h1>
+            <div class="col">
+                <h1>ASWD: <span id="aswd-points">0</span></h1>
+            </div>
+            <div class="col">
+                <h1>Mouse: <span id="mouse-points">0</span></h1>
+            </div>
+            <div class="col">
+                <h1>Arrows: <span id="arrow-points">0</span></h1>
+            </div>
         </div>
-        <div class="game-floor row min-vh-100 align-items-stretch" id="a">
-            <div class="col-1 aswd-left left lane">
+        <div class="game-floor row min-vh-100 align-items-stretch">
+            <div class="col-1 aswd-left left lane" id="a">
                 <p> A </p>
             </div> 
             <div class="col-1 aswd-down down lane" id="s">
@@ -28,9 +36,13 @@
             <div class="col-4">
                 <div class="behold-rick-astley-in-all-his-majesty row">
                     <video src="assets/rick.mp4" type="video/mp4" id="video"></video>
+                </div>
+                <div class="row">
                     <button type="button" class="btn btn-danger" id="start-game">Start</button>
-                    <button type="button" class="btn btn-primary" id="reset">Reset</button>
-                    <button type="button" class="btn btn-primary" id="add">Add Element</button>
+                    <!-- <button type="button" class="btn btn-primary" id="reset">Reset</button>
+                    <button type="button" class="btn btn-primary" id="add">Add Element</button> -->
+                </div>
+                <div class="row">
                     <p id="vid-log"></p>
                 </div>
             </div>
