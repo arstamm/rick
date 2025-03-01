@@ -28,7 +28,7 @@ const arrowPoints = document.getElementById("arrow-points");
 
 // Target Positions
 const START_POSITION = 750;
-const BEGIN_VALID_POSITION = 25;
+const BEGIN_VALID_POSITION = 27;
 const PERFECT_VALID_POSITION = 7;
 const END_VALID_POSITION = -20;
 const EXIT_POSITION = -70;
