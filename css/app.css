@@ -1,0 +1,61 @@
+
+/* Main Styles */
+
+body {
+    overflow: hidden;
+}
+
+.btn {
+    margin: 5px;
+}
+
+.game-header {
+    color: blue;
+    background-color: yellow;
+}
+
+.game-floor {
+    background-color: lightslategray;
+}
+
+.col {
+    border: 1px solid black;
+
+}
+
+.row {
+    border: 1px solid black;
+}
+
+
+/* Lane Styles */
+
+.target {
+    text-align: center;
+    background-color: #f2ea02;
+    border:2px solid black;
+    font-size: large;
+    font-weight: bold;
+    position: absolute;
+    /* top: 700px; */
+    left: inherit;
+    width: 50px;
+    height: 10px;
+}
+
+.lane {
+    border: 1px solid darkgreen;
+}
+
+.lane p {
+    text-align: center;
+    color:black;
+    background-color: white;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.behold-rick-astley-in-all-his-majesty video {
+    width: 100%;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I just wanna Rick Roll you</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="game-header row">
+            <h1> Never Gonna Give You Up</h1>
+        </div>
+        <div class="game-floor row min-vh-100 align-items-stretch" id="a">
+            <div class="col-1 aswd-left left lane">
+                <p> A </p>
+            </div> 
+            <div class="col-1 aswd-down down lane" id="s">
+                <p> S </p>
+            </div> 
+            <div class="col-1 aswd-up up lane" id="w">
+                <p> W </p>
+            </div> 
+            <div class="col-1 aswd-right right lane" id="d">
+                <p> D </p>
+            </div> 
+            <div class="col-4">
+                <div class="behold-rick-astley-in-all-his-majesty row">
+                    <video src="assets/rick.mp4" type="video/mp4" id="video"></video>
+                    <button type="button" class="btn btn-danger" id="start-game">Start</button>
+                    <button type="button" class="btn btn-primary" id="reset">Reset</button>
+                    <button type="button" class="btn btn-primary" id="add">Add Element</button>
+                    <p id="vid-log"></p>
+                </div>
+            </div>
+            <div class="col-1 arrow-left left lane" id="left">
+                <p> &#8592; </p>
+            </div>
+            <div class="col-1 arrow-down down lane" id="down">
+                <p> &#8595; </p>
+            </div>
+            <div class="col-1 arrow-up up lane" id="up">
+                <p>  &#8593; </p>
+            </div>
+            <div class="col-1 arrow-right lane" id="right">
+                <p> &#8594; </p>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+
+    
+</body>
+</html>
