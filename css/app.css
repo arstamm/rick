@@ -18,18 +18,6 @@ body {
     background-color: lightslategray;
 }
 
-.col {
-    border: 1px solid black;
-
-}
-
-.row {
-    border: 1px solid black;
-}
-
-
-/* Lane Styles */
-
 .target {
     text-align: center;
     background-color: #f2ea02;
@@ -44,7 +32,7 @@ body {
 }
 
 .lane {
-    border: 1px solid #88AED0;
+    border: 1px solid #78A2CC;
 }
 
 .lane p {
