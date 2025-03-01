@@ -10,8 +10,8 @@ body {
 }
 
 .game-header {
-    color: blue;
-    background-color: yellow;
+    color: #f5f5f4;
+    background-color: #78A2CC;
 }
 
 .game-floor {
@@ -44,13 +44,13 @@ body {
 }
 
 .lane {
-    border: 1px solid darkgreen;
+    border: 1px solid #88AED0;
 }
 
 .lane p {
     text-align: center;
     color:black;
-    background-color: white;
+    background-color: #f5f5f4;
     font-size: large;
     font-weight: bold;
 
