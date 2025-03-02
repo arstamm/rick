@@ -5,8 +5,7 @@ const video = document.getElementById("video");
 
 // Selected Elements
 const startButton = document.getElementById("start-game");
-const resetButton = document.getElementById("reset");
-const addButton = document.getElementById("add");
+// const addButton = document.getElementById("add");
 
 // Lanes
 const aLane = document.getElementById("a");
@@ -233,21 +232,9 @@ startButton.addEventListener("click", () => {
 
 });
 
-resetButton.addEventListener("click", () => {
-    console.log("Game Reset!!!");
-    video.pause();
-    video.currentTime = 0;
-    Object.keys(levelArr).forEach(time => {
-        levelArr[time][1] = true;
-    });
-    Object.keys(levelArr2).forEach(time => {
-        levelArr[time][1] = true;
-    });
-});
-
-addButton.addEventListener("click", () => {
-    let time = video.currentTime;
-    console.log(`Time Stamp: ${time}`);
-    vidLog.textContent += `${time}`;
-});
+// addButton.addEventListener("click", () => {
+//     let time = video.currentTime;
+//     console.log(`Time Stamp: ${time}`);
+//     vidLog.textContent += `${time}`;
+// });
 
